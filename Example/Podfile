@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Citadel_Tests' do
+  pod 'Citadel', :path => '../'
+  
+  
+end
