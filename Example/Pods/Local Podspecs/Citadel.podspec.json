@@ -1,0 +1,22 @@
+{
+  "name": "Citadel",
+  "version": "0.1.0",
+  "summary": "A short description of Citadel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Yunuskhuja/Citadel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Yunuskhuja": "t.yunuskhuja@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Yunuskhuja/Citadel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Citadel/Classes/**/*"
+}

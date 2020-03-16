@@ -1,0 +1,16 @@
+PODS:
+  - Citadel (0.1.0)
+
+DEPENDENCIES:
+  - Citadel (from `../`)
+
+EXTERNAL SOURCES:
+  Citadel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Citadel: 45eaf16b9e5de6cdcd69e9c1e1d3abb7f8a71928
+
+PODFILE CHECKSUM: 1916340a8f28b82ee8f9f2b6f6147e809754d421
+
+COCOAPODS: 1.8.4

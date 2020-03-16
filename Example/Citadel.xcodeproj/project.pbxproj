@@ -12,15 +12,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0B5CD9F16363E548B279BF88 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0B5CD9F16363E548B279BF88 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2FB1BF549D88F703FF863D1A /* Pods_Citadel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Citadel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51631B6A40BBB4A11C2C0D9E /* Pods-Citadel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Citadel_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Citadel_Tests/Pods-Citadel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* Citadel_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Citadel_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		DDA7D58823834F0E12DC8855 /* Citadel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Citadel.podspec; path = ../Citadel.podspec; sourceTree = "<group>"; };
+		DDA7D58823834F0E12DC8855 /* Citadel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Citadel.podspec; path = ../Citadel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E4A2C7C2055400E9F8F7C72D /* Pods-Citadel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Citadel_Tests.release.xcconfig"; path = "Target Support Files/Pods-Citadel_Tests/Pods-Citadel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		ECEF6DED6FD2D4F56264117E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ECEF6DED6FD2D4F56264117E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,6 @@
 				51631B6A40BBB4A11C2C0D9E /* Pods-Citadel_Tests.debug.xcconfig */,
 				E4A2C7C2055400E9F8F7C72D /* Pods-Citadel_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

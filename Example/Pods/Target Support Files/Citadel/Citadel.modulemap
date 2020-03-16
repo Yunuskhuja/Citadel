@@ -1,0 +1,6 @@
+framework module Citadel {
+  umbrella header "Citadel-umbrella.h"
+
+  export *
+  module * { export * }
+}
