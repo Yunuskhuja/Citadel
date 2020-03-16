@@ -1,8 +1,8 @@
 //
 //  FSettingsStorage.swift
-//  apc-ios
+//  Citadel
 //
-//  Cretated by Shohin Tagev
+//  Cretated by Shohin Tagaev
 //  Edited by Yunuskhuja Tuygunkhujaev on 3/16/20.
 //
 
@@ -14,7 +14,7 @@ final public class YSettingsStorage {
         
     }
     
-    public class var shared: FSettingsStorage {
+    public class var shared: YSettingsStorage {
         struct Singleton {
             static let singleton = YSettingsStorage()
         }

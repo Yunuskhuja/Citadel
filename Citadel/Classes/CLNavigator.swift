@@ -70,7 +70,7 @@ final public class CR {
         CLRouter.default.navigate(with: navigator, for: navigation, from: from, object: object)
     }
     
-    public static func didNavigate(block: @escaping ALRouter.NavigationBlock) {
+    public static func didNavigate(block: @escaping CLRouter.NavigationBlock) {
         CLRouter.default.didNavigate(block: block)
     }
 }
