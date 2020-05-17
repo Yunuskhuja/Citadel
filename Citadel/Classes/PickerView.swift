@@ -220,7 +220,7 @@ private class PickerViewDataModel<T>: NSObject, UIPickerViewDataSource, UIPicker
 
 extension PickerView where T: Equatable {
     public func set(item: T) {
-        if let indx = self.items.index(of: item) {
+        if let indx = self.items.firstIndex(of: item) {
             self.sldItem = item
             self.select(row: indx, animated: true)
         }
